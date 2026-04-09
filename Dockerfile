@@ -1,3 +1,3 @@
 FROM nginx:latest
-COPY index.html /usr/share/nginx/html/index.html
+COPY price-list.html /usr/share/nginx/html/price-list.html
 EXPOSE 80
